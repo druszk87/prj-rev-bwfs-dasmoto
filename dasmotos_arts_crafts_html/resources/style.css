@@ -1,0 +1,75 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url('../resources/images/pattern.jpeg');
+}
+
+#brushes h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+  padding: 10px;
+}
+
+#frames h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+#paint h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.prices {
+  color: blue;
+}
+
+nav ul {
+  list-style: none;
+  margin: auto;
+  padding: inherit;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li {
+  border-right: 1px solid white;
+}
+
+nav ul li a {
+  display: block;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px
+}
+
+nav ul li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.active {
+  background-color: mediumspringgreen;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
